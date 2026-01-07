@@ -17,7 +17,7 @@ header {
     text-align: center;
     /* Add padding and a background color */
     padding: 20px 0;
-    background-color: pink;
+    background-color: blue;
     color: black;
     /* Change the font size and weight */
     font-size: 1.5rem;
@@ -30,7 +30,7 @@ nav ul {
     list-style-type: none; /* Remove bullet points */
     padding: 0;
     margin: 0;
-    background-color: #FFB6C1; /* A slightly lighter pink */
+    background-color: #ADD8E6; /* A slightly lighter blue */
     overflow: hidden;
     text-align: center;
 }
