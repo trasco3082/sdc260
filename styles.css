@@ -93,4 +93,4 @@ footer {
 img {
   max-width: 100%; /* Ensures the image scales down to fit its container */
   height: auto;    /* Automatically adjusts the height to maintain aspect ratio */
-
+}
