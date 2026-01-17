@@ -94,3 +94,66 @@ img {
   max-width: 100%; /* Ensures the image scales down to fit its container */
   height: auto;    /* Automatically adjusts the height to maintain aspect ratio */
 }
+/* Table: structure and readability */
+#projects table {
+    width: 100;
+    border-collape: collapse;
+    margin-top: 1rem;
+}
+#projects th,
+#project td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+}
+/* Header background color */
+#projects thead th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+/* column-specific background colors via colgroup */
+#projects.col-project-name {
+    background-color: #fafafa;
+}
+/* Image placeholder box */
+.image-placeholder {
+    width: 100%;
+    height: 120px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+/* Navigation link: base style */
+nav a { 
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #333;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+/* Navigation link: hover background color */
+nav a:hover {
+    background-color: #dbeafe; 
+}
+
+/* Main content sections: base style */
+main section-color: #ffffff;
+padding: 1.5rem;
+margin-bottom: 1.5rem;
+border-radius: 4px;
+box-shadow: 0 1px 3px rgba(0,0,0, 0.08);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Section hover effect: zoom in slightly */
+main section:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.15);
+}
+
+
+    
